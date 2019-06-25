@@ -15,5 +15,5 @@ def get_the_values(groceries)
   results.each do |item|
     answer << item
   end
- answer
+ puts answer
 end
