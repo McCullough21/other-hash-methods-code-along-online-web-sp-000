@@ -11,5 +11,4 @@ groceries = {
 def get_the_values(groceries)
   results = []
   results << groceries.values
-  results.split
 end
