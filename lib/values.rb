@@ -10,8 +10,6 @@ groceries = {
 
 def get_the_values(groceries)
   result = []
-  groceries.each do |type, food|
-    result << type.values
-  end
-  # result.join
+  results << groceries.values
+  results.join
 end
