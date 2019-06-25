@@ -9,6 +9,11 @@ groceries = {
 }
 
 def get_the_values(groceries)
+  answer = []
   results = []
   results << groceries.values
+  results.each do |item|
+    answer << item
+  end
+ answer
 end
