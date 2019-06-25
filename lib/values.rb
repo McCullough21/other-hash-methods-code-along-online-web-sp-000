@@ -11,6 +11,6 @@ groceries = {
 def get_the_values(groceries)
   results = []
   groceries.each do |type|
-    type.values
+    type
 end
 end
