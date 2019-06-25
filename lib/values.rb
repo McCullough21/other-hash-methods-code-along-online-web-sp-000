@@ -10,7 +10,7 @@ groceries = {
 
 def get_the_values(groceries)
   results = []
-  groceries.each do |type|
-    type
+  groceries.each do |type, food|
+  results << food
 end
 end
