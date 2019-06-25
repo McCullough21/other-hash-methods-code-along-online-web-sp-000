@@ -13,4 +13,5 @@ def get_the_values(groceries)
   groceries.each do |type, food|
   results << food
 end
+results
 end
